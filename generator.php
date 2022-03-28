@@ -12,7 +12,7 @@ Version: 1.7.2
 Author URI: https://benrothman.org
 */
 
-require_once('cpts.php');
+require_once('data/cpts.php');
 
 function cpt_generator_main() {
     // create a CPTs CPT with fields to fill out for each part of the CPT array
