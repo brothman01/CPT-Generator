@@ -17,7 +17,11 @@ require_once('data/cpts.php');
 function cpt_generator_main() {
     // create a CPTs CPT with fields to fill out for each part of the CPT array
 
-    // when a new CPT is saved or updated, save or update that entry in the CPT file
+    // when a new CPT is saved or updated, save or update that entry in the CPT option
+
+    // Settings page:
+    // - add export to text file button
+    // - add import from text file button
 }
 
 add_action( 'plugins_loaded', 'cpt_generator_main' );
